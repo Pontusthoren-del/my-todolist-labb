@@ -45,7 +45,8 @@ body {
         0 4px 6px rgba(0, 0, 0, 0.04),
         0 12px 40px rgba(0, 0, 0, 0.08);
     width: min(420px, 100%);
-    margin-bottom: 25vh;
+    margin-bottom: 35vh;
+    min-height: 500px;
 }
 
 h1 {
@@ -123,7 +124,8 @@ h1 {
     background: #f7f8fc;
     border-radius: 14px;
     border: 1px solid #e8eaf3;
-    overflow: hidden;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 ul {
